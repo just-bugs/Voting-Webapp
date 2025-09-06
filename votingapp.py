@@ -11,7 +11,7 @@ Welcome to the voting app!
 3. Voters will enter their ID (1–10) and cast their vote.  
 """)
 
-# --- Step 1: Nominee Setup ---
+#Nominee Setup
 if "nominee_1" not in st.session_state:
     st.session_state.nominee_1 = ""
 if "nominee_2" not in st.session_state:
