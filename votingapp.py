@@ -65,13 +65,13 @@ if st.session_state.nominees_locked:
             st.session_state.nom_1_votes += 1
             st.session_state.votes_id.remove(st.session_state.current_voter)
             st.session_state.voter_valid = False
-            st.success(f"✅ Thank you for voting for {st.session_state.nominee_1}")
+            st.success(f"Thank you for voting for {st.session_state.nominee_1}")
 
         if st.button(f"Vote for {st.session_state.nominee_2}", key="vote_nom2"):
             st.session_state.nom_2_votes += 1
             st.session_state.votes_id.remove(st.session_state.current_voter)
             st.session_state.voter_valid = False
-            st.success(f"✅ Thank you for voting for {st.session_state.nominee_2}")
+            st.success(f"Thank you for voting for {st.session_state.nominee_2}")
 
     #Show Results
     st.subheader("📊 Live Results")
